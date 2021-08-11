@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SoccerAPI</string>
+    <!--    Soccer-->
+    <string name="BarkNews">Bark News</string>
+    <string name="soccerRatingCmt">Please tell us what do you think about our app:</string>
+    <string name="soccerUndo">Undo</string>
+    <string name="soccer_toast_message">Click on any news below to view details !</string>
+    <string name="snackbar1">You like this app!</string>
+    <string name="snackbar2">You do not like this app!</string>
+    <string name="soccerDate">News Date</string>
+    <string name="soccerLink">The Web Link</string>
+    <string name="soccerDescription">News Description</string>
+    <string name="soccerComment">Your comment...</string>
+    <string name="soccerBoxRate">Rating</string>
+    <string name="soccerYes">Yes</string>
+    <string name="soccerNo">No</string>
+    <string name="soccerBoxMsg">Please take your time to rate our app</string>
+    <string name="soccerLinkBrsBtn">Open the browser</string>
+    <string name="soccerSaveBtn">Save to my favorite</string>
+    <string name="soccerSaveFavBtn">Save to favorite</string>
+    <string name="SwitchQuestion">Do you like this app?</string>
+    <string name="soccerHelpMsg">Help button clicked</string>
+    <string name="helpSoccer">You can keep up with the latest soccer news with this app. You can store the news you\'re interested in to your favourites by clicking on it. To check the stored list, click the favourite news icon.</string>
+    <string name="soccerNewsTitle">News Title</string>
+    <string name="soccerRemoveFavBtn">Remove from favourite</string>
+    <string name="goToSoccerFavBtn">Go to my favorite</string>
+    <string name="soccerFavNewsBtn">Favorite news</string>
+    <string name="soccerFavTitles">Your favorite news</string>
+    <string name="soccerInstr">Instructions</string>
+    <string name="version">Version 1.0</string>
+    <string name="author">Jamal Harake</string>
+    <string name="soccer">Soccer News</string>
+    <string name="help">Help</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="soccerPage">You clicked soccer news page</string>
+    <string name="favPage">You clicked favorite soccer news page</string>
+    <string name="NavigationDrawer" translatable="false">NavigationDrawer</string>
+    <string name="helpPage">When you click on an icon, you will be sent to an associated page.</string>
+
+
+
+    </resources>

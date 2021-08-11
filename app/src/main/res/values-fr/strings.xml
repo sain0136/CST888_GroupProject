@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SoccerAPI</string>
+    <string name="BarkNews">Bark News</string>
+    <string name="soccerRatingCmt">S\'il vous plaît, dites-nous ce que vous pensez de notre application</string>
+    <string name="soccerUndo">Retour</string>
+    <string name="soccer_toast_message">Cliquez sur n\'importe quelle nouvelles pour plus de détails!</string>
+    <string name="snackbar1">Tu aimes l\'application!</string>
+    <string name="snackbar2">Tu n\'aimes pas l\'application!</string>
+    <string name="soccerDate">Date de la nouvelle</string>
+    <string name="soccerLink">Le lien de la nouvelle</string>
+    <string name="soccerDescription">La description de la nouvelle</string>
+    <string name="soccerComment">Ton commentaire...</string>
+    <string name="soccerBoxRate">Évaluez</string>
+    <string name="soccerYes">Oui</string>
+    <string name="soccerNo">Non</string>
+    <string name="soccerBoxMsg">S\'il vous plait, évaluez notre application</string>
+    <string name="soccerLinkBrsBtn">Ouvrir avec Internet</string>
+    <string name="soccerSaveBtn">Sauvegarder dans mes favoris</string>
+    <string name="soccerSaveFavBtn">Sauvegarder dans mes favoris</string>
+    <string name="SwitchQuestion">Aimez-vous l\'application?</string>
+    <string name="soccerHelpMsg">Boutton d\'aide cliqué</string>
+    <string name="helpSoccer">Vous pouvez suivre les dernières nouvelles du football avec cette application. Vous pouvez stocker les nouvelles qui vous intéressent dans vos favoris en cliquant dessus. Pour vérifier la liste stockée, cliquez sur l\'icône d\'actualités favorites.</string>
+    <string name="soccerNewsTitle">Titre de la nouvelle</string>
+    <string name="soccerRemoveFavBtn">Supprimer de mes favoris</string>
+    <string name="goToSoccerFavBtn">Allez à mes favoris</string>
+    <string name="soccerFavNewsBtn">Mes nouvelles préférés</string>
+    <string name="soccerFavTitles">Tes nouvelles préférés</string>
+    <string name="soccerInstr">Instructions</string>
+    <string name="version">Version 1.0</string>
+    <string name="author">Jamal Harake</string>
+    <string name="soccer">Nouvelles du Soccer</string>
+    <string name="help">Aide</string>
+    <string name="open">ouvrir</string>
+    <string name="close">fermer</string>
+    <string name="soccerPage">Tu as cliqué sur la page de nouvelles</string>
+    <string name="favPage">Tu as cliqué sur la page des nouvelles</string>
+    <string name="helpPage">Lorsque vous cliquez sur une icône, vous serez redirigé vers une page associée.</string>
+</resources>

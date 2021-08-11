@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="pink"> #EFC1BA</color>
+    <color name="lightBlue">#B3FCEC</color>
+    <color name="red">#fa314a</color>
+    <color name="songBtn">#EF476F</color>
+    <color name="songBackground">#FDECF0</color>
+    <color name="colorGameBtn">#0E6481</color>
+    <color name="colorBackground">#c8f7ff</color>
+    <color name="colorFragment">#EDF9FD</color>
+    <color name="colorPanel">#7ED4F1</color>
+
+    <color name="greenButtonColor">#05B384</color>
+    <color name="greenBackgroundColor">#EBFEF9</color>
+    <color name="greenBtn">#06D6A0</color>
+    <color name="soccerBtn">#f46036</color>
+    <color name="soccerBackground">#FEF0EC</color>
+    <color name="mainBackground">#cdb4db</color>
+    <color name="mainTitle">#233d4d</color>
+</resources>
