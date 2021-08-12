@@ -104,7 +104,7 @@ public class SoccerMain extends AppCompatActivity implements NavigationView.OnNa
 
         instructions = (Button)findViewById(R.id.soccerIntro);
         instructions.setOnClickListener(click -> {
-            Toast.makeText(this, getResources().getString(R.string.soccer_toast_message), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getResources().getString(R.string.toastmessage), Toast.LENGTH_LONG).show();
         });
 
         aSwitch = (Switch)findViewById(R.id.soccerSwitch);
@@ -112,12 +112,12 @@ public class SoccerMain extends AppCompatActivity implements NavigationView.OnNa
             if(checked == true){
                 Snackbar
                         .make(compoundButton, getResources().getString(R.string.snackbar1), Snackbar.LENGTH_SHORT)
-                        .setAction(getResources().getString(R.string.soccerUndo), click->compoundButton.setChecked(!checked))
+                        .setAction(getResources().getString(R.string.undo), click->compoundButton.setChecked(!checked))
                         .show();
             }else{
                 Snackbar
                         .make(compoundButton, getResources().getString(R.string.snackbar2), Snackbar.LENGTH_SHORT)
-                        .setAction(getResources().getString(R.string.soccerUndo), click->compoundButton.setChecked(!checked))
+                        .setAction(getResources().getString(R.string.undo), click->compoundButton.setChecked(!checked))
                         .show();
             }
         });
@@ -144,10 +144,10 @@ public class SoccerMain extends AppCompatActivity implements NavigationView.OnNa
                 startActivity(new Intent(SoccerMain.this, SoccerMain.class));
                 break;
             case R.id.help:
-                message = getResources().getString(R.string.soccerHelpMsg);
+                message = getResources().getString(R.string.toast_help);
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
                 alertDialogBuilder.setTitle(getResources().getString(R.string.help))
-                        .setMessage(getResources().getString(R.string.helpSoccer))
+                        .setMessage(getResources().getString(R.string.helpmessage))
                         .create().show();
                 break;
         }
@@ -197,8 +197,8 @@ public class SoccerMain extends AppCompatActivity implements NavigationView.OnNa
         String savedR = sharedPreferences.getString("ranking", "0");
         rating.setText(savedRanking);
         rating_star.setRating(Float.parseFloat(savedR));
-        alertDialogBuilder.setMessage(getResources().getString(R.string.soccerBoxMsg))
-                .setPositiveButton(getResources().getString(R.string.soccerYes), (click, arg) -> {
+        alertDialogBuilder.setMessage(getResources().getString(R.string.ratingMessage))
+                .setPositiveButton(getResources().getString(R.string.yesmessage), (click, arg) -> {
                     progressBar.setVisibility(View.VISIBLE);
                     Executor newThread = Executors.newSingleThreadExecutor();
                     newThread.execute(() -> {

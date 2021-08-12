@@ -158,10 +158,10 @@ public class SFragment extends Fragment {
                 new String[]{String.valueOf(newsTitle),String.valueOf(newsData)}, null, null, null, null);
         if(results.getCount()>0){
             aBoolean =true;
-            addButton.setText(getResources().getString(R.string.soccerRemoveFavBtn));
+            addButton.setText(getResources().getString(R.string.RemovefavButton));
         }else{
             aBoolean =false;
-            addButton.setText(getResources().getString(R.string.soccerSaveFavBtn));
+            addButton.setText(getResources().getString(R.string.SaveFavButton));
         }
     }
 
