@@ -14,6 +14,9 @@
         <activity android:name=".FavoriteNews"></activity>
         <activity android:name=".SoccerMain"></activity>
         <activity android:name=".EmptyActivity"></activity>
+        <activity android:name=".EmptyFrameWork"></activity>
+        <activity android:name=".MovieActivity"></activity>
+        <activity android:name=".SavedMovies"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

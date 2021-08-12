@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="titleView" type="id"/>
+    <item name="movieSearchTerm" type="id"/>
+    <item name="searchButton" type="id"/>
+    <item name="movieTitle" type="id"/>
+    <item name="movieYear" type="id"/>
+    <item name="movieRating" type="id"/>
+    <item name="movieRuntime" type="id"/>
+    <item name="moviePlot" type="id"/>
+    <item name="databaseStore" type="id"/>
+    <item name="moviePoster" type="id"/>
+    <item name="movieActors" type="id"/>
+    <item name="savedMovies" type="id"/>
+    <item name="helpButton" type="id"/>
+</resources>

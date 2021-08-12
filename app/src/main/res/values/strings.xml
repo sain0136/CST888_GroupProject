@@ -38,5 +38,14 @@
     <string name="helpPage">When you click on an icon, you will be sent to an associated page.</string>
 
 
+    <string name="search">Search</string>
+    <string name="type_title_of_movie_your_searching_for">Type title of movie your searching for</string>
+    <string name="searchTitle">You can search for movie titles</string>
+    <string name="hintTitleSearch">Type Movie Title here</string>
+    <string name="saveButtonText">Save</string>
+    <string name="returnButtontext">Return to search</string>
+    <string name="your_saved_movies_text">Your saved Movies</string>
+    <string name="go_back">Go Back</string>
+
 
     </resources>

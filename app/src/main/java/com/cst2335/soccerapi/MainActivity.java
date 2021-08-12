@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.goMovie:
                 message= "Movie Page";
-             //   startActivity(new Intent(MainActivity.this, MovieActivity.class));
+                startActivity(new Intent(MainActivity.this, MovieActivity.class));
                 break;
             case R.id.help:
                 message = getResources().getString(R.string.helpPage);
