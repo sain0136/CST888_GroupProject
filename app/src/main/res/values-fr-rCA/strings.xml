@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Projet de groupe</string>
+    <string name="search">Chercher</string>
+    <string name="type_title_of_movie_your_searching_for">Tapez le titre du film que vous recherchez</string>
+    <string name="searchTitle">Vous pouvez rechercher des titres de films</string>
+    <string name="hintTitleSearch">Tapez le titre du film ici</string>
+    <string name="saveButtonText">sauver</string>
+    <string name="returnButtontext">Retour à la recherche</string>
+    <string name="your_saved_movies_text">Vos films enregistrés</string>
+    <string name="go_back">Retourner</string>
+
+
+</resources>
