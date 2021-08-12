@@ -1,8 +1,6 @@
 package com.cst2335.soccerapi;
 
-/**
- * This class is to set up the items for Recyclerview
- */
+
 public class NewsItem {
     private String newsTitle;
     private String newsDate;

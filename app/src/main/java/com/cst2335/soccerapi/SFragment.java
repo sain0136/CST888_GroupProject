@@ -28,9 +28,7 @@ import java.util.ArrayList;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-/**
- * this class is to set up the details fragment, extends Fragment
- */
+
 public class SFragment extends Fragment {
 
     private Bundle dataFromActivity;
@@ -49,13 +47,7 @@ public class SFragment extends Fragment {
     String newsLink;
     long newsId;
 
-    /**
-     * this method is to creat the view
-     * @param inflater layoutInflater
-     * @param container ViewGroup
-     * @param savedInstanceState Bundle
-     * @return result
-     */
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -149,9 +141,7 @@ public class SFragment extends Fragment {
         return result;
     }
 
-    /**
-     * create method to query and match the result wih the database,and change button text
-     */
+
     private void changeBtnText(){
         Cursor results = sqLiteDatabase.query(false, SoccerOpenHelper.TABLE_NAME, new String[]{SoccerOpenHelper.COL_SOCCERTITLE, SoccerOpenHelper.COL_SOCCERDATE},
                 SoccerOpenHelper.COL_SOCCERTITLE +" = ? and " + SoccerOpenHelper.COL_SOCCERDATE+"= ?" ,
@@ -165,27 +155,18 @@ public class SFragment extends Fragment {
         }
     }
 
-    /**
-     * create method to delete the specific row matched the query result in the table
-     * @param soccerNews object of the Song class
-     */
+
     protected void deleteSoccer(NewsItem soccerNews)
     {
         sqLiteDatabase.delete(SoccerOpenHelper.TABLE_NAME, SoccerOpenHelper.COL_SOCCERTITLE +" = ? and " + SoccerOpenHelper.COL_SOCCERDATE+" = ?",  new String[]{String.valueOf(newsTitle),String.valueOf(newsData)});
     }
 
 
-    /**
-     * this method is to set up the  onAttach function
-     * @param context context
-     */
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
 
-        /**
-         * context will either be FragmentExample for a tablet, or EmptyActivity for phone
-         */
+
         parentActivity = (AppCompatActivity)context;
     }
 
