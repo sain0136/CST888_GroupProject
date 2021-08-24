@@ -71,6 +71,7 @@ public class MovieActivity extends AppCompatActivity {
         Button saveToDatabse = findViewById(R.id.databaseStore);
         Button savedMoviesView = findViewById(R.id.savedMovies);
         ImageButton help = findViewById(R.id.helpButton);
+        ImageButton backHome = findViewById(R.id.backHomeScreen);
 
         SharedPreferences prefs = getSharedPreferences("MyData", Context.MODE_PRIVATE);
         String searchWord =prefs.getString("SearchTerm", "lol");
@@ -172,9 +173,13 @@ public class MovieActivity extends AppCompatActivity {
 
         help.setOnClickListener((click)->{
             AlertDialog.Builder builder = new AlertDialog.Builder( MovieActivity.this );
-            builder.setMessage("Use this program to search for movies by title. Press save to save it to your own list. Press saved video to view your list! You can delete videos or view extra details of favorite movies");
+            builder.setMessage(getResources().getString(R.string.helpPageMovie));
             builder.setNegativeButton("exit",((dialog, cl) -> {}));
             builder.create().show();
+        });
+        backHome.setOnClickListener((click)->{
+            Intent nextPage = new Intent( MovieActivity.this, SoccerMain.class);
+            startActivity( nextPage );
         });
     }
 }

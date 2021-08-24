@@ -10,13 +10,13 @@
         android:orderInCategory="50"
         android:icon="@drawable/soccericon"
         app:showAsAction="always"
-        android:title="Soccer" />
+        android:title="@string/soccer" />
 
     <item android:id="@+id/goMovie"
         android:orderInCategory="50"
         android:icon="@drawable/movieicon"
         app:showAsAction="always"
-        android:title="Soccer" />
+        android:title="@string/movie" />
 
 
 
@@ -24,6 +24,6 @@
         android:icon="@drawable/help"
         app:showAsAction="always"
         android:orderInCategory="400"
-        android:title="Help" />
+        android:title="@string/help3" />
 
 </menu>

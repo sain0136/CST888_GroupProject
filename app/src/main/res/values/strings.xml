@@ -32,10 +32,11 @@
     <string name="help">Help</string>
     <string name="open">open</string>
     <string name="close">close</string>
-    <string name="soccerPage">You clicked soccer news page</string>
+    <string name="soccerPage">You went back to the landing page</string>
     <string name="favPage">You clicked favorite soccer news page</string>
     <string name="NavigationDrawer" translatable="false">NavigationDrawer</string>
     <string name="helpPage">When you click on an icon, you will be sent to an associated page.</string>
+    <string name="helpPageMovie">Use this program to search for movies by title. Press save to save it to your own list. Press saved video to view your list! You can delete videos or view extra details of favorite movies</string>
 
 
     <string name="search">Search</string>
@@ -46,6 +47,11 @@
     <string name="returnButtontext">Return to search</string>
     <string name="your_saved_movies_text">Your saved Movies</string>
     <string name="go_back">Go Back</string>
+    <string name="soccer">Soccer</string>
+    <string name="movie">Movie</string>
+    <string name="help3">Help</string>
+    <string name="soccer2">Soccer</string>
+    <string name="Home">Home</string>
 
 
-    </resources>
+</resources>

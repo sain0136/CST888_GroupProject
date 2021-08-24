@@ -11,9 +11,9 @@
 
     <item android:id="@+id/goSoccer"
         android:orderInCategory="50"
-        android:icon="@drawable/soccericon"
+        android:icon="@drawable/home"
         app:showAsAction="never"
-        android:title="Soccer" />
+        android:title="@string/Home" />
 
 
 

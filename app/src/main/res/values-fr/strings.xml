@@ -33,7 +33,7 @@
     <string name="help">Aide</string>
     <string name="open">ouvrir</string>
     <string name="close">fermer</string>
-    <string name="soccerPage">Tu as cliqué sur la page de nouvelles</string>
+    <string name="soccerPage">Vous êtes retourné à la page de destination</string>
     <string name="favPage">Tu as cliqué sur la page des nouvelles</string>
     <string name="helpPage">Lorsque vous cliquez sur une icône, vous serez redirigé vers une page associée.</string>
     <string name="search">Chercher</string>
@@ -44,4 +44,10 @@
     <string name="returnButtontext">Retour à la recherche</string>
     <string name="your_saved_movies_text">Vos films enregistrés</string>
     <string name="go_back">Retourner</string>
+    <string name="helpPageMovie">Utilisez ce programme pour rechercher des films par titre. Appuyez sur Enregistrer pour l\'enregistrer dans votre propre liste. Appuyez sur la vidéo enregistrée pour afficher votre liste! Vous pouvez supprimer des vidéos ou afficher des détails supplémentaires sur vos films préférés</string>
+    <string name="soccer">Football</string>
+    <string name="movie">Film</string>
+    <string name="help3">Aider</string>
+    <string name="soccer2">Football</string>
+    <string name="Home">page d\'accueil</string>
 </resources>

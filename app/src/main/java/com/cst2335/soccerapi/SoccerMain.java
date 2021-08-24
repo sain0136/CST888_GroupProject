@@ -141,7 +141,7 @@ public class SoccerMain extends AppCompatActivity implements NavigationView.OnNa
                 break;
             case R.id.goSoccer:
                 message = getResources().getString(R.string.soccerPage);
-                startActivity(new Intent(SoccerMain.this, SoccerMain.class));
+                startActivity(new Intent(SoccerMain.this, MainActivity.class));
                 break;
             case R.id.help:
                 message = getResources().getString(R.string.toast_help);
